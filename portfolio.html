@@ -6,18 +6,19 @@
         <title>Page Title</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     
+        <!-- css -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" media="screen" href="portfolio.css"/>
-        <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/portfolio.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+        
+        <!-- javascripts -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
             crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
             crossorigin="anonymous"></script>
-    
-        <script type="text/javascript" src="scripts/portfolio.js"></script>
     </head>
 
     <body background="images/mosaic.png">
@@ -34,27 +35,15 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                             </li>
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li> -->
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -90,24 +79,25 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Random Text Generator</h5>
-                                <p class="card-text">A javascript program I wrote to generate random text, similar to Lorem Ipsum but arguably better.</p>
-                                <a href="#" class="btn btn-primary">Check it out</a>
+                                <p class="card-text">A javascript program I wrote to generate random text, similar to Lorem Ipsum but clearly way better.</p>
+                                <a href="random-text-generator/index.html" class="btn btn-primary">Check it out</a>
                             </div>
                         </div>
                         <div class="card bg-light">
-                            <img src="..." class="card-img-top" alt="...">
+                            <!-- I actually don't like this image, and it might be copyrighted -->
+                            <!-- <img src="images/rock-paper-scissors.png" style="padding:20px"; class="card-img-top" alt="..."> -->
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Rock Paper Scissors</h5>
+                                <p class="card-text">A javascript implementation of this classic game, which I made during/after class.</p>
+                                <a href="rock-paper-scissors/index.html" class="btn btn-primary">Play it</a>
                             </div>
                         </div>
                         <div class="card bg-light">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="images/alt-selfie.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">My other page</h5>
+                                <p class="card-text">Another version of my portfolio site, built without using Bootstrap.</p>
+                                <a href="https://jepidoptera.github.io" class="btn btn-primary">Visit site</a>
                             </div>
                         </div>
                         <div class="card bg-light">

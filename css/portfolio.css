@@ -3,30 +3,8 @@ body {
     text-align: center;
 }
 
-#portfolioContainer {
-    text-align: center;
-    width: 100%;
-    margin: 50px 0;
-}
-
-.portfolioImage {
-    background-color: whitesmoke;
-    margin: 20px;
-    width: 280px;
-    height: 360px;
-    display: inline-block;
-    clear: none;
-}
-
-.portfolioButton {
-    position: relative;
-    top: 200px;
-    width: 280px;
-    height: 50px;
-    background-color: cadetblue;
-    color: white;
-    font-size: 12pt;
-    margin: 0 auto;
+.card-img-top {
+    padding: 10px;
 }
 
 #randomTextFrame {
@@ -35,7 +13,7 @@ body {
     text-align: justify;
     display: flex; 
     flex-direction: column; 
-    margin: 0 auto; 
+    margin: 10px auto 0; 
     padding: 10px;
     width: 90%; 
     border: 1px solid black;

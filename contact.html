@@ -1,17 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body style="background-color:darkgray; font-size: 14pt;" width: >
-    <div style="color:blue; float: left; margin-right: 5pt;">Ravenist </div>
-    <div style="color:blueviolet; float: left; margin-right: 5pt;">quimby </div>
-    <div style="color:green; float: left; margin-right: 5pt;">et </div>
-    <div style="color:orangered; float: left; margin-right: 5pt;">orzo </div>
-    <div style="color:darkgoldenrod; float: left; margin-right: 5pt;">paucomfit </div>
-    <div style="color:rebeccapurple; float: left; margin-right: 5pt;">mo... </div>
-</body>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- css -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+        
+        <!-- javascript -->
+        <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+    
+        <script type="text/javascript" src="scripts/portfolio.js"></script>
+    </head>
+
+    <body background="images/mosaic.png">
+        <div class="container-fluid">
+
+            <div class="row">
+                <!-- NAVBAR -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light col-12" id="mainnav">
+                    <a class="navbar-brand" href="#">Peter C Allen VI</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+                
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+
+                <div class="col-10 whitebackground">
+                    <!-- header -->
+                    <h1 style="text-align:center" class="whitebackground" id="mainTitle">Contact</h1>
+                    <br> 
+                    <form action="index.html">
+                        <div class="form-group">
+                            <label for="nameInput">Name</label>
+                            <input type="name" class="form-control" id="nameInput" placeholder="jane doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailInput">Email address</label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="messageInput">Example textarea</label>
+                            <textarea class="form-control" id="messageInput" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="thanksAlert()">Send</button>
+                    </form>
+                </div>
+
+                <div class="col-1">
+                    
+                </div>                
+            </div>
+        </div>
+
+        <br>
+
+    </body>
 </html>
