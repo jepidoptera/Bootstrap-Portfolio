@@ -1,0 +1,116 @@
+
+*{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#mainnav {
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+}
+
+#mainTitle {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    margin: 0 0 50px;
+}
+
+#mainContent {
+    position: relative;
+    margin: 20px 0;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.rebeccapurple {
+    color: rebeccapurple;
+}
+
+.green {
+    color: green;
+}
+
+.orangered {
+    color: orangered;
+}
+
+.pink {
+    color: pink;
+}
+
+.maroon {
+    color: maroon;
+}
+
+hr { 
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 100%;
+}
+
+#selfie {
+    margin: 20px;
+    float: left;
+}
+
+#selfieContainer {
+    text-align: center;
+}
+
+.whitebackground {
+    background-color: white;
+    padding: 20px;
+}
+
+#footer {
+    position: fixed;
+    top: calc(100% - 40px);
+    width: 100%;
+    height: 60px;
+    background-color: dimgray;
+    flex: 0 1 40px;
+    text-align: center;
+    font-size: 8pt;
+    color: wheat;
+}
+
+/* alterations for smaller screens */
+@media screen and (max-width: 1080px) {
+    #selfie {
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #mainnav {
+        position: absolute;
+        float: none;
+    }
+}
+

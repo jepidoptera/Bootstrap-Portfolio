@@ -1,0 +1,3 @@
+[submodule "random-text-generator"]
+	path = random-text-generator
+	url = https://github.com/jepidoptera/random-text-generator.git
