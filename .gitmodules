@@ -4,3 +4,6 @@
 [submodule "rock-paper-scissors"]
 	path = rock-paper-scissors
 	url = https://github.com/jepidoptera/rock-paper-scissors.git
+[submodule "hangman"]
+	path = hangman
+	url = https://github.com/jepidoptera/hangman.git
